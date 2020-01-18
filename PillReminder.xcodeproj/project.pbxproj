@@ -13,6 +13,18 @@
 		9338283823BF9962001A3150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9338283623BF9962001A3150 /* Main.storyboard */; };
 		9338283A23BF9965001A3150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9338283923BF9965001A3150 /* Assets.xcassets */; };
 		9338283D23BF9965001A3150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9338283B23BF9965001A3150 /* LaunchScreen.storyboard */; };
+		9338284C23BF9AB2001A3150 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338284B23BF9AB2001A3150 /* CalendarModel.swift */; };
+		9338285023BFA92A001A3150 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338284F23BFA92A001A3150 /* DateCollectionViewCell.swift */; };
+		934FCF0523C205F600F08E46 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934FCF0423C205F600F08E46 /* ReminderTableViewController.swift */; };
+		934FCF0723C21E3D00F08E46 /* DayReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934FCF0623C21E3D00F08E46 /* DayReminderModel.swift */; };
+		934FCF0B23C2350E00F08E46 /* Reminders.plist in Resources */ = {isa = PBXBuildFile; fileRef = 934FCF0A23C2350E00F08E46 /* Reminders.plist */; };
+		934FCF0D23C23BF300F08E46 /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934FCF0C23C23BF300F08E46 /* UserDefaultsStorage.swift */; };
+		934FCF0F23C25D4100F08E46 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934FCF0E23C25D4100F08E46 /* Reminder.swift */; };
+		9370B8D323C516FF00C3386D /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9370B8D223C516FF00C3386D /* LocalNotificationManager.swift */; };
+		9370B8D523C51B7C00C3386D /* AppDelegateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9370B8D423C51B7C00C3386D /* AppDelegateExtension.swift */; };
+		9392065023C0CD1000D3B316 /* CreateReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9392064F23C0CD1000D3B316 /* CreateReminderViewController.swift */; };
+		93B08A8723C33623005E0E08 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B08A8623C33623005E0E08 /* ReminderTableViewCell.swift */; };
+		93B08A8923C33DCA005E0E08 /* UpdateReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B08A8823C33DCA005E0E08 /* UpdateReminderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		9338283923BF9965001A3150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9338283C23BF9965001A3150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9338283E23BF9965001A3150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9338284B23BF9AB2001A3150 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		9338284F23BFA92A001A3150 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		934FCF0423C205F600F08E46 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		934FCF0623C21E3D00F08E46 /* DayReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayReminderModel.swift; sourceTree = "<group>"; };
+		934FCF0A23C2350E00F08E46 /* Reminders.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Reminders.plist; sourceTree = "<group>"; };
+		934FCF0C23C23BF300F08E46 /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorage.swift; sourceTree = "<group>"; };
+		934FCF0E23C25D4100F08E46 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		9370B8D223C516FF00C3386D /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		9370B8D423C51B7C00C3386D /* AppDelegateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateExtension.swift; sourceTree = "<group>"; };
+		9392064F23C0CD1000D3B316 /* CreateReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReminderViewController.swift; sourceTree = "<group>"; };
+		93B08A8623C33623005E0E08 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		93B08A8823C33DCA005E0E08 /* UpdateReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateReminderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +81,50 @@
 			isa = PBXGroup;
 			children = (
 				9338283023BF9962001A3150 /* AppDelegate.swift */,
+				9338284E23BF9AE0001A3150 /* Model */,
+				9338284823BF9A1E001A3150 /* View */,
 				9338283223BF9962001A3150 /* SceneDelegate.swift */,
-				9338283423BF9962001A3150 /* ViewController.swift */,
-				9338283623BF9962001A3150 /* Main.storyboard */,
+				9338284923BF9A30001A3150 /* Controller */,
 				9338283923BF9965001A3150 /* Assets.xcassets */,
 				9338283B23BF9965001A3150 /* LaunchScreen.storyboard */,
 				9338283E23BF9965001A3150 /* Info.plist */,
+				9338284F23BFA92A001A3150 /* DateCollectionViewCell.swift */,
+				934FCF0A23C2350E00F08E46 /* Reminders.plist */,
 			);
 			path = PillReminder;
+			sourceTree = "<group>";
+		};
+		9338284823BF9A1E001A3150 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9338283623BF9962001A3150 /* Main.storyboard */,
+				93B08A8623C33623005E0E08 /* ReminderTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9338284923BF9A30001A3150 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9338283423BF9962001A3150 /* ViewController.swift */,
+				9392064F23C0CD1000D3B316 /* CreateReminderViewController.swift */,
+				934FCF0423C205F600F08E46 /* ReminderTableViewController.swift */,
+				93B08A8823C33DCA005E0E08 /* UpdateReminderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9338284E23BF9AE0001A3150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9338284B23BF9AB2001A3150 /* CalendarModel.swift */,
+				934FCF0623C21E3D00F08E46 /* DayReminderModel.swift */,
+				934FCF0C23C23BF300F08E46 /* UserDefaultsStorage.swift */,
+				934FCF0E23C25D4100F08E46 /* Reminder.swift */,
+				9370B8D223C516FF00C3386D /* LocalNotificationManager.swift */,
+				9370B8D423C51B7C00C3386D /* AppDelegateExtension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +187,7 @@
 			files = (
 				9338283D23BF9965001A3150 /* LaunchScreen.storyboard in Resources */,
 				9338283A23BF9965001A3150 /* Assets.xcassets in Resources */,
+				934FCF0B23C2350E00F08E46 /* Reminders.plist in Resources */,
 				9338283823BF9962001A3150 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +199,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				934FCF0D23C23BF300F08E46 /* UserDefaultsStorage.swift in Sources */,
 				9338283523BF9962001A3150 /* ViewController.swift in Sources */,
+				934FCF0F23C25D4100F08E46 /* Reminder.swift in Sources */,
+				9370B8D323C516FF00C3386D /* LocalNotificationManager.swift in Sources */,
 				9338283123BF9962001A3150 /* AppDelegate.swift in Sources */,
+				9392065023C0CD1000D3B316 /* CreateReminderViewController.swift in Sources */,
+				9370B8D523C51B7C00C3386D /* AppDelegateExtension.swift in Sources */,
+				934FCF0523C205F600F08E46 /* ReminderTableViewController.swift in Sources */,
+				93B08A8723C33623005E0E08 /* ReminderTableViewCell.swift in Sources */,
+				934FCF0723C21E3D00F08E46 /* DayReminderModel.swift in Sources */,
 				9338283323BF9962001A3150 /* SceneDelegate.swift in Sources */,
+				93B08A8923C33DCA005E0E08 /* UpdateReminderViewController.swift in Sources */,
+				9338284C23BF9AB2001A3150 /* CalendarModel.swift in Sources */,
+				9338285023BFA92A001A3150 /* DateCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +359,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WGH45ARYB;
 				INFOPLIST_FILE = PillReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tabaradumitru.PillReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WGH45ARYB;
 				INFOPLIST_FILE = PillReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tabaradumitru.PillReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
